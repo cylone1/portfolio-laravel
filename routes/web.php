@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('portfolio');
 });
 
+// routes/web.php
+Route::get('/webhook', function () {
+    return 'Webhook OK 🚀';
+});
 // Route::get('/', function () {
 //     return view('welcome');
 // });
